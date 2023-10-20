@@ -12,7 +12,7 @@
 The arm movement coordiantion assessment software represents a version of the [***Modified Drawing Test***](https://www.researchgate.net/publication/270468778_The_modified_drawing_test_for_assessment_of_arm_movement_quality) (*mDT*) for personal computers. The purpose of the *mDT* is for examining the arm movement coordination of patients, who have survived a stroke and are rehabilitating their upper extermites (arms). The patient is required to draw a line along a given rectangular path, as fast and percise as possible, while supervised by therapists. The size of the path model is determined by the patients range of motion. The *mDT* score is determined by the speed, smoothness and percision error metrics. It is important to note that the *mDT* is not meant for training, only testing.  
  
 The arm movement coordiantion assessment software is implemented for training and testing patients during rehabilitation. Its GUI is designed to be as simple as possible for the user/patient. The software was developed in Python, using mostly the pygame library for creating and implementing simple GUIs, user interactions, event processing...  
-A list of all Python libraries and modules used in developing the software:
+Here is the list of all Python libraries and modules used in developing the software:
 + [Pygame library](https://www.pygame.org/news)
 + [NumPy library](https://numpy.org/)
 + [OS module](https://docs.python.org/3/library/os.html)
@@ -73,6 +73,7 @@ In the "end test" state, represented by the above image, the stopwatch is stoppe
 ### 4. Software features
 The biggest feature of this software is the way it saves the test results. When the test is finished, the software makes a screenshot of the entire screen which it saves localy in the ***results*** folder. If the folder doesnt exist, the software will automatically create it after the screenshot. The software names the images of the test results as the date and time when the user/patient finished the test, which is shown in the image below.
 
-![Draw Test Module](https://github.com/vladajankovic/Software-for-arm-movement-coordination-assessment-using-a-computer-mouse/blob/master/GUI%20images/6.png)
+![Save](https://github.com/vladajankovic/Software-for-arm-movement-coordination-assessment-using-a-computer-mouse/blob/master/GUI%20images/6.PNG)
 ***
 ### 5. Software testing examples
+
