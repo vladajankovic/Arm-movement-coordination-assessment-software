@@ -42,21 +42,6 @@ To run the software **as an executable** follow these steps:
 2. Extract the archive localy (e.g. Desktop)
 3. Run the executable file ***main*** in the folder.
 
-If you have Python installed loacly, you can run the software using the Python interpreter.  
-To run the software **using the Python interpreter** follow these steps:
-1. Download the ***Raw files*** from the [download.md](https://github.com/vladajankovic/Software-for-arm-movement-coordination-assessment-using-a-computer-mouse/blob/master/download.md) file which contains the following items:
-+ ***fonts*** folder
-+ ***images*** folder
-+ ***main.py*** file
-+ ***reuirements.txt*** file
-
-Make sure that the ***fonts***, ***images***, ***main.py*** and ***reuirements.txt*** are in the same directory.  
-To install the necessary libraries, run the following command in your terminal:
-> ...\directory>pip install -r ./requirements.txt
-  
-After the required libraries are installed localy, run the software with the following command:  
-  
-> ...\directory>python main.py
 ***
 ### 3. User interface overview
 The software consists of 3 user interfaces:
