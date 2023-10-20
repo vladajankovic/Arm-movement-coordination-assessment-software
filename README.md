@@ -1,4 +1,4 @@
-# Software-for-arm-movement-coordination-assessment-using-a-computer-mouse
+# Software for arm movement coordination assessment using a computer mouse
 **The software was developed as a result of my bachelor's thesis under the mentorship of [dr Nadica Miljkovic](https://automatika.etf.bg.ac.rs/en/department-personnel/98-english/content/faculty/615-phd-nadica-miljkovi%C4%87).**
 ***
 ### Table of Contents
@@ -39,7 +39,7 @@ Software: Windows OS or Linux OS
 To install the software, simply download the appropriate archive for your OS, unpack it and run the executable file in the folder.
 ***
 ### 3. User interface overview
-The software consists of three user interfaces:
+The software consists of 3 user interfaces:
 + Main Menu
 + Training Module
 + Draw Test Module
@@ -48,7 +48,7 @@ The following image represents the Main Menu GUI:
   
 ![Main Menu](https://github.com/vladajankovic/Software-for-arm-movement-coordination-assessment-using-a-computer-mouse/blob/master/GUI%20images/1.png)
   
-The Main Menu consists of three buttons labled "Training", "Draw Test" and "Exit". Using the arrow keys UP and DOWN changes the select option of the buttons. Pressing the Enter key will select the current button and pressing the Escape key will exit the software. In the bottom left corner of the screen is the help info on what the keys do when they are pressed. Selecting the "Training" button moves the user to the Training Module, selecting the "Draw Test" button moves the user to the Testing Module and selecting the "Exit" button will exit the software.
+The Main Menu consists of 3 buttons labled "Training", "Draw Test" and "Exit". Using the arrow keys UP and DOWN changes the select option of the buttons. Pressing the Enter key will select the current button and pressing the Escape key will exit the software. In the bottom left corner of the screen is the help info on what the keys do when they are pressed. Selecting the "Training" button moves the user to the Training Module, selecting the "Draw Test" button moves the user to the Testing Module and selecting the "Exit" button will exit the software.
 
 The following image represents the Training Module GUI:
 
@@ -76,4 +76,8 @@ The biggest feature of this software is the way it saves the test results. When 
 ![Save](https://github.com/vladajankovic/Software-for-arm-movement-coordination-assessment-using-a-computer-mouse/blob/master/GUI%20images/6.PNG)
 ***
 ### 5. Software testing examples
+The functionalities of the software were tested by anonymous volunteers. Each volunteer was given 4 attempts to complete the test. The image below represents the test results of one volunteer, who simulated the results of a person who survived a stroke and is in rehabilitation.
 
+![Results](https://github.com/vladajankovic/Software-for-arm-movement-coordination-assessment-using-a-computer-mouse/blob/master/GUI%20images/7.png)
+
+The first attempt simulates the beginning of a patients rehabilitation where the patient finds it difficult to draw smooth lines and folow the optimal path, which results in a lower score. The second and third attempt simulate the later phases in the rehabilitation process when the patient tries to draw more percise after each attempt, which results in the line drawn staying inside the path at all times, greater smoothness of the drawn line and a higher accuracy score. The fourth attempt simulates the final stage of the parients rehabilitation process in which the patient is able to follow the optimal path but not perfectly. At this point the doctors and therapists can assume that most, if not all, of the patients arm muscle functionalities are restored.
