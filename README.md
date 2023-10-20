@@ -44,19 +44,35 @@ The software consists of three user interfaces:
 + Training Module
 + Draw Test Module
   
-The following image shows the Main Menu GUI:
+The following image represents the Main Menu GUI:
   
 ![Main Menu](https://github.com/vladajankovic/Software-for-arm-movement-coordination-assessment-using-a-computer-mouse/blob/master/GUI%20images/1.png)
   
 The Main Menu consists of three buttons labled "Training", "Draw Test" and "Exit". Using the arrow keys UP and DOWN changes the select option of the buttons. Pressing the Enter key will select the current button and pressing the Escape key will exit the software. In the bottom left corner of the screen is the help info on what the keys do when they are pressed. Selecting the "Training" button moves the user to the Training Module, selecting the "Draw Test" button moves the user to the Testing Module and selecting the "Exit" button will exit the software.
 
-The following image shows the Training Module GUI:
+The following image represents the Training Module GUI:
 
 ![Training Module](https://github.com/vladajankovic/Software-for-arm-movement-coordination-assessment-using-a-computer-mouse/blob/master/GUI%20images/2.png)
 
-The Training Module is created for the user/patient to practice repetitive 
+The Training Module is created for the user/patient to practice repetitive arm movement which is an effective way of arm rehabilitation based on muscle memory. This Module contains various horizontal, vertical, diagonal and radial lines that help the user/patient with arm movement in many different paths by following a line or moving in between two lines. In the top left part of the screen is the information panel which explains the action of pressing certain buttons. The user/patient can practice arm movement with different cursor sensitivity levels to find the optimal level to use in the Testing Module. The current sensitivity level is displayed in the information panel as a multiplier of the current computer mouse sensitivity. The image shows the value x0.25 which is 4 times slower than the computer mouse.
+
+The following images represent the Draw Test Module GUIs:
+
+![Draw Test Module](https://github.com/vladajankovic/Software-for-arm-movement-coordination-assessment-using-a-computer-mouse/blob/master/GUI%20images/3.png)
+
+The above image represents the "preparation" state of the Draw Test Module. The popup window contains information on how to start the test and the user/patient can change the cursor sensitivity level that best suits him/her. By pressing the Space key or any mouse button, the test begins and the Module goes into the "testing" state.
+
+![Draw Test Module](https://github.com/vladajankovic/Software-for-arm-movement-coordination-assessment-using-a-computer-mouse/blob/master/GUI%20images/4.png)
+
+In the "testing" state, represented by the above image, the user/patient is tasked to draw a line by following the middle of the path, represented by a black square frame as percise as possible. A green square in the middle of the frame represents the optimal path and can help the user/patient in drawing by following it which results in a higher percision score. Failing to follow the optimal path results in lower percision score, and drawing over the . In the top right part of the screen is a stopwatch that measures the elapsed time sice starting the test. On the left side of the screen are the information panel, that tells the user/patient what key press results in what action, and the percision score panel, that shows the current accuracy or drawing percision. The user/patient starts from the red square and draws clockwise or counter clockwise until the cursor returns to the starting position. When the test is finished, the Module goes into the "end test" state.
+  
+![Draw Test Module](https://github.com/vladajankovic/Software-for-arm-movement-coordination-assessment-using-a-computer-mouse/blob/master/GUI%20images/5.png)
+
+In the "end test" state, represented by the above image, the stopwatch is stopped, the final accuracy score is calculated, the results are saved localy and a popup window is shows that the user has completed the test.
 ***
 ### 4. Software features
+The biggest feature of this software is the way it saves the test results. When the test is finished, the software makes a screenshot of the entire screen which it saves localy in the ***results*** folder. If the folder doesnt exist, the software will automatically create it after the screenshot. The software names the images of the test results as the date and time when the user/patient finished the test, which is shown in the image below.
 
+![Draw Test Module](https://github.com/vladajankovic/Software-for-arm-movement-coordination-assessment-using-a-computer-mouse/blob/master/GUI%20images/6.png)
 ***
 ### 5. Software testing examples
