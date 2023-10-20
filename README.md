@@ -37,6 +37,20 @@ Hardware:
   
 Software: Windows OS or Linux OS  
 To install the software, simply download the appropriate archive for your OS, unpack it and run the executable file in the folder.
+  
+You can also run the software using the Python interpreter by downloading the folowing files and folders:
++ ***fonts*** folder
++ ***images*** folder
++ ***main.py*** file
++ ***reuirements.txt*** file
+
+Make sure that the ***fonts***, ***images***, ***main.py*** and ***reuirements.txt*** are in the same directory.  
+To install the necessary libraries, run the following command in your terminal:
+> ...\directory>pip install -r ./requirements.txt
+  
+After the required libraries are installed localy, run the software with the following command:  
+  
+> ...\directory>python main.py
 ***
 ### 3. User interface overview
 The software consists of 3 user interfaces:
