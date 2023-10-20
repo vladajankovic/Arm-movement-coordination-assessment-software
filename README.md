@@ -39,6 +39,12 @@ Software: Windows OS or Linux OS
 To install the software, simply download the appropriate archive for your OS, unpack it and run the executable file in the folder.
 ***
 ### 3. User interface overview
+The software consists of three user interfaces:
++ Main menu
++ Training module
++ Draw Test module
+  
+The following image shows the main menu GUI:
 
 ***
 ### 4. Software features
