@@ -1,5 +1,5 @@
 # Software for arm movement coordination assessment using a computer mouse
-**This software was developed as a result of my bachelor's thesis under the mentorship of [dr Nadica Miljkovic](https://automatika.etf.bg.ac.rs/en/department-personnel/98-english/content/faculty/615-phd-nadica-miljkovi%C4%87).**
+**This software was developed as a result of my bachelor's thesis under the mentorship of [dr Nadica Miljkovic](https://automatika.etf.bg.ac.rs/en/department-personnel/98-english/content/faculty/615-phd-nadica-miljkovi%C4%87), at the University of Belgrade, School of Electrical Engineering**
 ***
 ### Table of Contents
 1. [Introduction](https://github.com/vladajankovic/Software-for-arm-movement-coordination-assessment-using-a-computer-mouse/blob/master/README.md#1-introduction)
