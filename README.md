@@ -35,10 +35,16 @@ Hardware:
   + Space
   + Enter (Return)
   
-Software: Windows OS or Linux OS  
-To install the software, simply download the appropriate archive for your OS, unpack it and run the executable file in the folder.
+Software: Windows OS or Linux OS
   
-You can also run the software using the Python interpreter by downloading the folowing files and folders:
+To run the software **as an executable** follow these steps:
+1. Download the appropriate archive based on your OS from the [download.md](https://github.com/vladajankovic/Software-for-arm-movement-coordination-assessment-using-a-computer-mouse/blob/master/download.md) file
+2. Extract the archive localy (e.g. Desktop)
+3. Run the executable file ***main*** in the folder.
+
+If you have Python installed loacly, you can run the software using the Python interpreter.  
+To run the software **using the Python interpreter** follow these steps:
+1. Download the ***Raw files*** from the [download.md](https://github.com/vladajankovic/Software-for-arm-movement-coordination-assessment-using-a-computer-mouse/blob/master/download.md) file which contains the following items:
 + ***fonts*** folder
 + ***images*** folder
 + ***main.py*** file
