@@ -1,5 +1,5 @@
 # Software for arm movement coordination assessment using a computer mouse
-**This software was developed as a result of my Bachelor Thesis under the mentorship of [Assoc. Prof. Nadica Miljković](https://www.etf.bg.ac.rs/en/faculty/staff/nadica-miljkovic-4323) from the [University of Belgrade - School of Electrical Engineering](https://www.etf.bg.ac.rs/en)**
+**This software was developed as a result of my Bachelor Thesis under the mentorship of [Assoc. Prof. Nadica Miljković](https://www.etf.bg.ac.rs/en/faculty/staff/nadica-miljkovic-4323) from the [University of Belgrade - School of Electrical Engineering](https://www.etf.bg.ac.rs/en) defended on September 28, 2023.**
 ***
 ### Table of Contents
 1. [Introduction](https://github.com/vladajankovic/Software-for-arm-movement-coordination-assessment-using-a-computer-mouse/blob/master/README.md#1-introduction)
@@ -7,6 +7,7 @@
 3. [User Interface Overview](https://github.com/vladajankovic/Software-for-arm-movement-coordination-assessment-using-a-computer-mouse/blob/master/README.md#3-user-interface-overview)
 4. [Software Features](https://github.com/vladajankovic/Software-for-arm-movement-coordination-assessment-using-a-computer-mouse/blob/master/README.md#4-software-features)
 5. [Software Testing Examples](https://github.com/vladajankovic/Software-for-arm-movement-coordination-assessment-using-a-computer-mouse/blob/master/README.md#5-software-testing-examples)
+6. [Citing Instruction](https://github.com/vladajankovic/Software-for-arm-movement-coordination-assessment-using-a-computer-mouse/blob/master/README.md#6-citing-instruction)
 ***
 ### 1. Introduction
 The arm movement coordiantion assessment software represents a version of the Modified Drawing Test (mDT) inspired from [1] and adopted for personal computer. The purpose of mDT is assessment of arm movement coordination of persons who have survived a stroke and are undergoing rehabilitation of upper extremities. The ideal scenario envisions that subject has an assignment to drive a line along a given rectangular path, as fast as and as percise as possible, while supervised by therapists. The size of the path model can be changed and adopted by the subjects' range of motion. The mDT score incorporates speed, smoothness, and percision error metrics of the drawing task. It is important to note that the mDT is not meant for training, only testing. However, future software versions or upgrades can incorporate training sessions as well.
@@ -24,6 +25,13 @@ The main feature of the software is the Testing Module, in which users can test 
 To run the software on a computer, it is not required to have Python and all the dependencies (libraries and modules) installed localy. Executable files for Windows OS and Linux OS are provided using the [PyInstaller](https://pyinstaller.org/en/stable/) tool. The only downside is that executable files created using PyInstaller can be labled as viruses because ***the executables do not have a signed certificate***. Because of that, some antiviruses lable it as a ***FALSE POSITIVE***.
 
 DISCLAIMER: This software repository is provided without any guarantee and it is not intended for medical purposes.
+
+This repository contains:
++ [GUI images](https://github.com/vladajankovic/Arm-movement-coordination-assessment-software/tree/master/GUI%20images) used for the [README](https://github.com/vladajankovic/Arm-movement-coordination-assessment-software/blob/master/README.md) document
++ [python](https://github.com/vladajankovic/Arm-movement-coordination-assessment-software/tree/master/python) folder containing source code
++ GNU GPL (General Public License) Version 3+ [license](https://github.com/vladajankovic/Arm-movement-coordination-assessment-software/blob/master/LICENSE)
++ [README](https://github.com/vladajankovic/Arm-movement-coordination-assessment-software/blob/master/README.md)
++ [download](https://github.com/vladajankovic/Arm-movement-coordination-assessment-software/blob/master/download.md) folder with istallation files for Linux OS and Windows OS
 
 Reference:
 
@@ -92,3 +100,8 @@ The functionalities of the software were tested by anonymous volunteer with four
 The first attempt simulates the beginning of a patients rehabilitation where the patient finds it difficult to draw smooth lines and folow the optimal path, which results in a decreased score. The second and the third attempts simulate the later phases in the rehabilitation process when the patient tries to draw more percise squares, which results in the drawn line inside the path at all times, greater smoothness of the drawn line, and in increased accuracy score. The fourth attempt simulates the final stage of the rehabilitation process in which the patient is able to follow the optimal path but not perfectly.
 
 It should be emphasized that this software is tested in only one healthy volunteer, so its intended purpose for assessment of arm movements in stroke patients is yet to be tested and examined.
+
+### 2. Citing Instruction
+If you find this software useful, please cite my Bachelor thesis and this repository as:
++ 
+CONTACT: Vladimir Janković ([http://linkedin.com/in/vladimir-jankovic-22a843197/](http://linkedin.com/in/vladimir-jankovic-22a843197/))
