@@ -1,0 +1,31 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Software for arm movement coordination assessment using a
+  computer mouse
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Vladimir
+    family-names: Janković
+    affiliation: >-
+      University of Belgrade - School of Electrical
+      Engineering
+repository-code: >-
+  https://github.com/vladajankovic/Arm-movement-coordination-assessment-software
+abstract: >-
+  Software for drawing test using computer mouse intended
+  for assessment of arm movements and coordination.
+keywords:
+  - medical application
+  - rehabilitation
+  - arm movement
+  - drawing test
+  - computer mouse
+license: GPL-3.0+
+version: '1.0'
+date-released: '2023-10-27'
