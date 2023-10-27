@@ -103,5 +103,5 @@ It should be emphasized that this software is tested in only one healthy volunte
 
 ### 6. Citing Instruction
 If you find this software useful, please cite my Bachelor thesis and this repository as:
-+ 
++ Janković, V. (2023). Software for assessment of arm movement coordination using a computer mouse. *Bachelor Thesis, University of Belgrade - School of Electrical Engineering*, mentor: Dr. Nadica Miljković.
 CONTACT: Vladimir Janković ([http://linkedin.com/in/vladimir-jankovic-22a843197/](http://linkedin.com/in/vladimir-jankovic-22a843197/))
