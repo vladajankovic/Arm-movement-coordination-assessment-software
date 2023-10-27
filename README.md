@@ -28,6 +28,7 @@ DISCLAIMER: This software repository is provided without any guarantee and it is
 
 This repository contains:
 + [GUI images](https://github.com/vladajankovic/Arm-movement-coordination-assessment-software/tree/master/GUI%20images) used for the [README](https://github.com/vladajankovic/Arm-movement-coordination-assessment-software/blob/master/README.md) document
++ [CITATION.cff](https://github.com/vladajankovic/Arm-movement-coordination-assessment-software/blob/master/CITATION.cff) instructions
 + [python](https://github.com/vladajankovic/Arm-movement-coordination-assessment-software/tree/master/python) folder containing source code
 + GNU GPL (General Public License) Version 3+ [license](https://github.com/vladajankovic/Arm-movement-coordination-assessment-software/blob/master/LICENSE)
 + [README](https://github.com/vladajankovic/Arm-movement-coordination-assessment-software/blob/master/README.md)
@@ -104,6 +105,7 @@ It should be emphasized that this software is tested in only one healthy volunte
 ### 6. Citing Instruction
 If you find this software useful, please cite my Bachelor thesis and this repository as:
 + Janković, V. (2023). Software for assessment of arm movement coordination using a computer mouse. *Bachelor Thesis, University of Belgrade - School of Electrical Engineering*, mentor: Dr. Nadica Miljković.
++ Janković, V. (2023). Software for arm movement coordination assessment using a computer mouse (Version 1.0) [Computer software]. https://github.com/vladajankovic/Arm-movement-coordination-assessment-software, Accessed on October 27, 2023
 
 
 CONTACT: Vladimir Janković ([http://linkedin.com/in/vladimir-jankovic-22a843197/](http://linkedin.com/in/vladimir-jankovic-22a843197/))
