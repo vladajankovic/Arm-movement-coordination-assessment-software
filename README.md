@@ -1,6 +1,6 @@
 # Software for arm movement coordination assessment using a computer mouse
-**This software was developed as a result of my Bachelor Thesis under the mentorship of [Assoc. Prof. Nadica Miljković](https://www.etf.bg.ac.rs/en/faculty/staff/nadica-miljkovic-4323) from the [University of Belgrade - School of Electrical Engineering](https://www.etf.bg.ac.rs/en) defended on September 28, 2023.**
-***
+This software was developed as a result of my Bachelor Thesis under the mentorship of [Assoc. Prof. Nadica Miljković](https://www.etf.bg.ac.rs/en/faculty/staff/nadica-miljkovic-4323) from the [University of Belgrade - School of Electrical Engineering](https://www.etf.bg.ac.rs/en) defended on September 28, 2023.
+
 ### Table of Contents
 1. [Introduction](https://github.com/vladajankovic/Software-for-arm-movement-coordination-assessment-using-a-computer-mouse/blob/master/README.md#1-introduction)
 2. [Requirements and Installation](https://github.com/vladajankovic/Software-for-arm-movement-coordination-assessment-using-a-computer-mouse/blob/master/README.md#2-requirements-and-installation)
@@ -101,7 +101,7 @@ The first attempt simulates the beginning of a patients rehabilitation where the
 
 It should be emphasized that this software is tested in only one healthy volunteer, so its intended purpose for assessment of arm movements in stroke patients is yet to be tested and examined.
 
-### 2. Citing Instruction
+### 6. Citing Instruction
 If you find this software useful, please cite my Bachelor thesis and this repository as:
 + 
 CONTACT: Vladimir Janković ([http://linkedin.com/in/vladimir-jankovic-22a843197/](http://linkedin.com/in/vladimir-jankovic-22a843197/))
